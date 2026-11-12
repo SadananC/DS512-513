@@ -38,6 +38,13 @@
 | Daily Steps | Number of steps (per day) | Ratio | 3000 - 10000 step |
 | Sleep Disorder | Type of sleep | Nominal | None<br>Insomnia (ภาวะ โรคนอนไม่หลับ)<br>Sleep Apnea (ภาวะหยุดหายใจขณะหลับ) |
 
-# 6. Key Findings 
-# 7. Action/Recommendation 
+# 6. การวิเคราะห์ข้อมูลเชิงสำรวจ
+
+# 7. Data Cleaning Process
+
+
+
+
+# 8. Key Findings 
+# 9. Action/Recommendation 
 
