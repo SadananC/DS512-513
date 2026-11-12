@@ -21,6 +21,15 @@
 3.2 การกำหนด Metrics และ KPIs
 # 4. แหล่งที่มาของข้อมูล (Data Source)
 # 5. Data Dictionary
+| ชื่อตัวแปร (Field Name) | ประเภทข้อมูล (Data Type) | บทบาท (Role) | คำอธิบาย (Description) | ช่วงข้อมูล / หน่วย (Range / Unit) |
+| :--- | :--- | :--- | :--- | :--- |
+| `Person ID` | Integer | Identifier | รหัสระบุตัวตนของผู้ตอบแบบสำรวจ | 1 - 374 |
+| `Age` | Integer | Feature | อายุของผู้ตอบแบบสำรวจ | 27 - 59 ปี |
+| `Age_Group` | Categorical | Feature (Derived) | การจัดกลุ่มช่วงอายุ (`25-39`, `40-54`, `55-69`) | 3 กลุ่ม |
+| `Screen Time Before Bed (mins)` | Integer | **Predictor ($X$)** | ระยะเวลาการใช้อุปกรณ์หน้าจอก่อนนอน | 15 - 135 นาที |
+| `Quality of Sleep` | Integer | **Target ($Y$)** | คะแนนการประเมินคุณภาพการนอนหลับ | 1 - 10 คะแนน |
+| `Sleep Duration` | Float | Supporting Output | ระยะเวลาการนอนหลับรวม | 5.8 - 8.5 ชั่วโมง |
+| `Stress Level` | Integer | Confounding Factor | ระดับความเครียดประเมินตนเอง | 1 - 10 คะแนน |
 # 6. Key Findings 
 # 7. Action/Recommendation 
 
