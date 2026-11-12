@@ -21,15 +21,23 @@
 3.2 การกำหนด Metrics และ KPIs
 # 4. แหล่งที่มาของข้อมูล (Data Source)
 # 5. Data Dictionary
-| ชื่อตัวแปร (Field Name) | ประเภทข้อมูล (Data Type) | บทบาท (Role) | คำอธิบาย (Description) | ช่วงข้อมูล / หน่วย (Range / Unit) |
-| :--- | :--- | :--- | :--- | :--- |
-| `Person ID` | Integer | Identifier | รหัสระบุตัวตนของผู้ตอบแบบสำรวจ | 1 - 374 |
-| `Age` | Integer | Feature | อายุของผู้ตอบแบบสำรวจ | 27 - 59 ปี |
-| `Age_Group` | Categorical | Feature (Derived) | การจัดกลุ่มช่วงอายุ (`25-39`, `40-54`, `55-69`) | 3 กลุ่ม |
-| `Screen Time Before Bed (mins)` | Integer | **Predictor ($X$)** | ระยะเวลาการใช้อุปกรณ์หน้าจอก่อนนอน | 15 - 135 นาที |
-| `Quality of Sleep` | Integer | **Target ($Y$)** | คะแนนการประเมินคุณภาพการนอนหลับ | 1 - 10 คะแนน |
-| `Sleep Duration` | Float | Supporting Output | ระยะเวลาการนอนหลับรวม | 5.8 - 8.5 ชั่วโมง |
-| `Stress Level` | Integer | Confounding Factor | ระดับความเครียดประเมินตนเอง | 1 - 10 คะแนน |
+
+| Attribute | Description | Data Type | Valid Range / Example |
+| :--- | :--- | :--- | :--- |
+| Person ID | Person Identification Number | Ordinal | 1 - 347 |
+| Gender | Gender of the person | Nominal | Male Female |
+| Age | Age of the person | Ratio | 27 - 59 year |
+| Occupation | Job of the person | Nominal | Accountant<br>Doctor<br>Engineer<br>Lawyer<br>Manager<br>Nurse<br>Sales Representative<br>Salesperson<br>Scientist<br>Software Engineer<br>Teacher |
+| Sleep Duration | Number of hours the person sleeps (hours/day) | Ratio | 5.8 - 8.5 Hours |
+| Quality of Sleep | Rating of sleep quality | Ordinal | 4 - 9 Level |
+| Physical Activity Level | Physical activity (minutes/day) | Ratio | 30 - 90 Minute |
+| Stress Level | Rating of stress level | Ordinal | 3 - 8 Level<br>1 - 3 ระดับต่ำ (Low Stress)<br>4 - 6 ระดับปานกลาง (Moderate Stress)<br>7 - 8 ระดับสูง (High Stress)<br>9 - 10 ระดับรุนแรงมาก (Severe / Extreme Stress) |
+| BMI Category | The body Mass | Ratio | Normal OverweightObese |
+| Blood Pressure | The blood pressure | Ratio | 115/75 - 142/92 |
+| Heart Rate | The resting heart rate | Ratio | 65 - 86 bpm |
+| Daily Steps | Number of steps (per day) | Ratio | 3000 - 10000 step |
+| Sleep Disorder | Type of sleep | Nominal | None<br>Insomnia (ภาวะ โรคนอนไม่หลับ)<br>Sleep Apnea (ภาวะหยุดหายใจขณะหลับ) |
+
 # 6. Key Findings 
 # 7. Action/Recommendation 
 
