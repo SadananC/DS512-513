@@ -80,7 +80,7 @@
 
 
 - RQ4: หากสามารถลด Screen Time ก่อนนอนลงทุกๆ 15 นาที จะช่วยเพิ่มคะแนนคุณภาพการนอนหลับได้เท่าใด?
-<img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/3fa4b75c-a34b-45a5-a9db-1d191b0e94ce" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/3fa4b75c-a34b-45a5-a9db-1d191b0e94ce" />
 
 
 
