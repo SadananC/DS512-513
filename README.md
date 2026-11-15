@@ -60,7 +60,7 @@
 เนื่องจากชุดข้อมูลดิบ มีข้อมูลที่ซ้ำซ้อนและมีการลงข้อมูลผิดปกติ ทำให้ต้องมีการแปรค่าบางค่าเพื่อให้สามารถนำมาใช้ในการวิเคราะห์ได้
 - 1. **การปรับรูปแบบข้อมูลให้เป็นมาตรฐาน** ค่า BMI มีการลงข้อมูลซ้ำซ้อน คือ มีการลงข้อมูล Normal และ Normal Weight อีกจำนวน 21 ค่า จึงทำการแปลงค่า Normal Weight ให้เป็นค่าเดียวคือ Normal
 - 2. **การจัดการข้อมูลซ้ำซ้อน (Handling Duplicate Data)** จากการตรวจสอบค่าเบี่ยงเบนของ Occupation ทำให้ทราบว่าชุดข้อมูลดิบดังกล่าวมีจำนวน Occupation ที่กระจุกตัวกันอาจทำให้การวิเคราะห์ออกมาอย่างไม่เป็นกลาง วิธีแก้ไขคือการ Drop column Occupation
-<img width="976" height="1074" alt="image" src="https://github.com/user-attachments/assets/6656379e-67d3-47be-88a6-92e557d7028b" />
+<img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/6656379e-67d3-47be-88a6-92e557d7028b" />
 
 - 3. **การเตรียมค่าสำหรับการใช้วิเคราะห์ข้อมูล (Data Transformation)** แปลงค่าใน Sleep Disorder จากเดิมที่มีการแบ่งเป็น 3 Category คือ Normal , Insomnia , Sleep Apnea แปลงค่าให้เป็น Not Disorder , Has Disorder และให้เป็นค่า 0 , 1 ตามลำดับ เพื่อให้สามารถนำมาวิเคราะห์ข้อมูลได้
 - 4. **การตรวจสอบความสมเหตุสมผลของข้อมูล** เช่น การตรวจสอบข้อมูลอายุต้องไม่มีการติดลบ
@@ -80,8 +80,8 @@
 
 
 - RQ4: หากสามารถลด Screen Time ก่อนนอนลงทุกๆ 15 นาที จะช่วยเพิ่มคะแนนคุณภาพการนอนหลับได้เท่าใด?
-<img width="1312" height="736" alt="image" src="https://github.com/user-attachments/assets/3fa4b75c-a34b-45a5-a9db-1d191b0e94ce" />
-<img width="1040" height="516" alt="image" src="https://github.com/user-attachments/assets/daafb44f-9b60-4792-a39f-e79fb5514829" />
+<img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/3fa4b75c-a34b-45a5-a9db-1d191b0e94ce" />
+
 
 
 # 9. Action/Recommendation 
