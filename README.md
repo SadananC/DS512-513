@@ -26,7 +26,9 @@
   3. **Sleep Disorder Prevalence (%):** สัดส่วนการเกิดโรค
      
 # 4. แหล่งที่มาของข้อมูล (Data Source)
-https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset
+- **Dataset:** Sleep Health and Lifestyle Dataset https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset
+- **Source:** Kaggle, AI generate เพิ่มเติม 4 column คือ Caffeine Intake (cups/day), Alcohol Consumption (drinks/week), Screen Time Before Bed (mins), Last Meal Before Bed (hours)
+- **ข้อมูลถูกจัดเตรียมสำหรับงาน** Classification
 
 # 5. Data Dictionary
 
@@ -35,7 +37,6 @@ https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset
 | Person ID | Person Identification Number | Ordinal | 1 - 347 |
 | Gender | Gender of the person | Nominal | Male Female |
 | Age | Age of the person | Ratio | 27 - 59 year |
-| Occupation | Job of the person | Nominal | Accountant<br>Doctor<br>Engineer<br>Lawyer<br>Manager<br>Nurse<br>Sales Representative<br>Salesperson<br>Scientist<br>Software Engineer<br>Teacher |
 | Sleep Duration | Number of hours the person sleeps (hours/day) | Ratio | 5.8 - 8.5 Hours |
 | Quality of Sleep | Rating of sleep quality | Ordinal | 4 - 9 Level |
 | Physical Activity Level | Physical activity (minutes/day) | Ratio | 30 - 90 Minute |
@@ -54,6 +55,10 @@ EDA
 - 4. แผนภาพสรุปผลการสำรวจข้อมูล
 
 # 7. Data Cleaning Process
+เนื่องจากชุดข้อมูลดิบ มีข้อมูลที่ซ้ำซ้อนและมีการลงข้อมูลผิดปกติ ทำให้ต้องมีการแปรค่าบางค่าเพื่อให้สามารถนำมาใช้ในการวิเคราะห์ได้
+1.**ค่า BMI** มีการลงข้อมูลซ้ำซ้อน คือ Normal กับ Normal Weight จึงทำการแปลงค่าให้เป็นค่าเดียวคือ Normal
+2.**Drop column Occupation** เนื่องจากจำนวนกลุ่มตัวอย่างในชุดข้อมูลดิบแต่ละอาชีพมีไม่เท่ากัน จึงทำให้ค่าที่ได้ไม่มีความเป็นกลาง
+3.**แปลงค่าใน Sleep Disorder** ให้เป็นค่า 0 และ 1 เพื่อให้สามารถนำมาวิเคราะห์ข้อมูลได้
 
 
 
