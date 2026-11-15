@@ -26,6 +26,8 @@
   3. **Sleep Disorder Prevalence (%):** สัดส่วนการเกิดโรค
      
 # 4. แหล่งที่มาของข้อมูล (Data Source)
+https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset
+
 # 5. Data Dictionary
 
 | Attribute | Description | Data Type | Valid Range / Example |
@@ -45,6 +47,11 @@
 | Sleep Disorder | Type of sleep | Nominal | Not Disorder (ภาวะปกติ)<br>Has Disoder (มีภาวะอาการที่เกี่ยวกับโรคนอนไม่หลับ)|
 
 # 6. การวิเคราะห์ข้อมูลเชิงสำรวจ
+EDA 
+- 1. สำรวจภาพรวมและความสมบูรณ์ของข้อมูล
+- 2. วิเคราะห์หาความสัมพันธ์ตัวแปร
+- 3. เปรียบเทียบลักษณะตัวแปรที่มีความสัมพันธ์ระหว่างกลุ่มที่ปกติและกลุ่มที่เป็นโรคเกี่ยวกับการนอน
+- 4.แผนภาพสรุปผลการสำรวจข้อมูล
 
 # 7. Data Cleaning Process
 
