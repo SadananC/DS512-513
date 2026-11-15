@@ -52,7 +52,7 @@
 | Caffeine Intake | Number of caffeinated drinks consumed (cups/day) | Ratio | 0 - 5 cups/day |
 | Alcohol Consumption | Number of alcoholic drinks consumed (drinks/week) | Ratio | 0 - 10 drinks/week |
 | Screen Time Before Bed | Duration of screen usage before sleeping (minutes) | Ratio | 15 - 135 mins |
-| Last Meal Before Bed | Time elapsed between last meal and bedtime (hours) | Ratio | 1.0 - 3.5 hours |
+| Last Meal Before Bed | Time elapsed between last meal and bedtime (hours) | Ratio | 1.0 - 4.5 hours |
 
 # 6. การวิเคราะห์ข้อมูลเชิงสำรวจ
 **EDA** 
