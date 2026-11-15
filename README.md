@@ -49,6 +49,10 @@
 | Heart Rate | The resting heart rate | Ratio | 65 - 86 bpm |
 | Daily Steps | Number of steps (per day) | Ratio | 3000 - 10000 step |
 | Sleep Disorder | Type of sleep | Nominal | Not Disorder (ภาวะปกติ)<br>Has Disoder (มีภาวะอาการที่เกี่ยวกับโรคนอนไม่หลับ)|
+| Caffeine Intake | Number of caffeinated drinks consumed (cups/day) | Ratio | 0 - 5 cups/day |
+| Alcohol Consumption | Number of alcoholic drinks consumed (drinks/week) | Ratio | 0 - 10 drinks/week |
+| Screen Time Before Bed | Duration of screen usage before sleeping (minutes) | Ratio | 15 - 135 mins |
+| Last Meal Before Bed | Time elapsed between last meal and bedtime (hours) | Ratio | 1.0 - 3.5 hours |
 
 # 6. การวิเคราะห์ข้อมูลเชิงสำรวจ
 **EDA** 
