@@ -80,7 +80,7 @@
 
 
 - **RQ2** : พฤติกรรมการใช้หน้าจอก่อนนอนและคุณภาพการนอนหลับ แตกต่างกันตามช่วงอายุหรือไม่?
-<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/f515432e-ddd8-446f-955e-3380fb006610" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/f515432e-ddd8-446f-955e-3380fb006610" />
 
 **จากกราฟ** พฤติกรรมการใช้หน้าจอก่อนนอนและคุณภาพการนอนหลับแตกต่างกันอย่างชัดเจนตามช่วงอายุ โดยสรุปได้ว่า ยิ่งอายุมากขึ้นเวลาใช้หน้าจอก่อนนอนยิ่งลดลง และคุณภาพการนอนยิ่งสูงขึ้น
 - กลุ่มอายุ 25–39 ปี (กลุ่มเสี่ยงสุด): ใช้หน้าจอก่อนนอนนานที่สุดเฉลี่ย 75.21 นาที ส่งผลให้มีคะแนนคุณภาพการนอนต่ำที่สุดอยู่ที่ 6.97 คะแนน
@@ -90,7 +90,7 @@
 
 
 - **RQ3**: พฤติกรรมการบริโภคคาเฟอีนและการดื่มแอลกอฮอล์มีผลให้เกิดโรคที่เกี่ยวกับการนอนหรือไม่ ?
-<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/9bbeb93e-5da6-4feb-b8ad-195fa7d68366" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/9bbeb93e-5da6-4feb-b8ad-195fa7d68366" />
 
 
 **จากกราฟ** สรุปได้ว่า พฤติกรรมการบริโภคคาเฟอีนและการดื่มแอลกอฮอล์ส่งผลต่อการเกิดโรคอย่างเห็นได้ชัด โดย
@@ -101,7 +101,7 @@
 
 
 - **RQ4**: หากสามารถลด Screen Time ก่อนนอนลงทุกๆ 15 นาที จะช่วยเพิ่มคะแนนคุณภาพการนอนหลับได้เท่าใด?
-<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/3fa4b75c-a34b-45a5-a9db-1d191b0e94ce" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/3fa4b75c-a34b-45a5-a9db-1d191b0e94ce" />
 
 
 
