@@ -42,7 +42,7 @@
 | Blood Pressure | The blood pressure | Ratio | 115/75 - 142/92 |
 | Heart Rate | The resting heart rate | Ratio | 65 - 86 bpm |
 | Daily Steps | Number of steps (per day) | Ratio | 3000 - 10000 step |
-| Sleep Disorder | Type of sleep | Nominal | None<br>Insomnia (ภาวะ โรคนอนไม่หลับ)<br>Sleep Apnea (ภาวะหยุดหายใจขณะหลับ) |
+| Sleep Disorder | Type of sleep | Nominal | Not Disorder (ภาวะปกติ)<br>Has Disoder (มีภาวะอาการที่เกี่ยวกับโรคนอนไม่หลับ)|
 
 # 6. การวิเคราะห์ข้อมูลเชิงสำรวจ
 
