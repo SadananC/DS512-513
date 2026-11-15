@@ -90,7 +90,7 @@
 
 
 - **RQ3**: พฤติกรรมการบริโภคคาเฟอีนและการดื่มแอลกอฮอล์มีผลให้เกิดโรคที่เกี่ยวกับการนอนหรือไม่ ?
-<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/9bbeb93e-5da6-4feb-b8ad-195fa7d68366" />
+<img width="715" height="500" alt="image" src="https://github.com/user-attachments/assets/1c50e21e-ce47-4040-a112-146b00b28cfa" />
 
 
 **จากกราฟ** สรุปได้ว่า พฤติกรรมการบริโภคคาเฟอีนและการดื่มแอลกอฮอล์ส่งผลต่อการเกิดโรคอย่างเห็นได้ชัด โดย
